@@ -26,5 +26,5 @@ const startPuppeteerLoadTest = require('puppeteer-loadtest');
 startPuppeteerLoadTest({
     file: 'loadtest.js',
     samplesRequested: 1,
-    concurrencyRequested: 500
+    concurrencyRequested: 100
 });
